@@ -16,7 +16,7 @@ public class RekognitionService {
     public RekognitionService() {
         // Automatically uses ~/.aws/credentials
         this.rekognitionClient = RekognitionClient.builder()
-                .region(Region.US_EAST_1) // change to your region
+                .region(Region.US_EAST_1)
                 .build();
     }
 

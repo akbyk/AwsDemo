@@ -14,7 +14,7 @@ public class ComprehendService {
 
     public ComprehendService() {
         this.comprehendClient = ComprehendClient.builder()
-                .region(Region.US_EAST_1) // same region as before
+                .region(Region.US_EAST_1)
                 .build();
     }
 
